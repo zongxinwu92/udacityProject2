@@ -1,17 +1,19 @@
-body, html {
-  margin: 1.5%;
-  padding:1.5%;
-  width: 100%;
-  height: 100%;
+.content{
+    width:90%;
+    margin:auto;
+    display:block;
 }
 
-header, section{
+header,section{
     box-sizing: border-box;
     max-width:100%;
     min-width:48px;
     min-height:48px;
 }
 
+main{
+    margin:auto;
+}
 
 .header_logo{
     float:left;
@@ -24,7 +26,7 @@ header, section{
 }
 
 .main_picture{
-    width:94%
+    width:100%;
 }
 
 .secondary_picture{
@@ -42,9 +44,9 @@ ul{
 
 .spot_picture{
     display:inline-block;
-    width:28%;
+    width:30%;
     text-align: center;
-    padding-right:2%;
+    padding-right:3%;
 }
 
 .spot_picture span{
