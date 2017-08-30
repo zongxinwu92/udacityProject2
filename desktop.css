@@ -1,0 +1,57 @@
+body, html {
+  margin: 1.5%;
+  padding:1.5%;
+  width: 100%;
+  height: 100%;
+}
+
+header, section{
+    box-sizing: border-box;
+    max-width:100%;
+    min-width:48px;
+    min-height:48px;
+}
+
+
+.header_logo{
+    float:left;
+    width:40%;
+}
+
+.header_title{
+    float:right;
+    width:40%;
+}
+
+.main_picture{
+    width:94%
+}
+
+.secondary_picture{
+    display: flex;
+    flex-wrap:wrap;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    marigin:0;
+    max-width:100%;
+    min-width:48px;
+    min-height:48px;
+}
+
+.spot_picture{
+    display:inline-block;
+    width:28%;
+    text-align: center;
+    padding-right:2%;
+}
+
+.spot_picture span{
+    display:block;
+}
+
+.spot_img{
+    width:100%;
+}
+
