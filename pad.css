@@ -1,57 +1,45 @@
-.container{
+.content{
     width:90%;
     margin:auto;
-    display:block;
+    display: flex;
+    flex-wrap:wrap;
 }
 
-header,section{
+
+header,.main_picture,.secondary_picture{
     box-sizing: border-box;
-    max-width:100%;
+    width:100%;
+    margin-top:5%;
     min-width:48px;
     min-height:48px;
 }
 
-main{
-    margin:auto;
-}
-
 h1{
-    font-style: italic;
+    font-family: serif;
+    font-style: normal;
+    font-size:36px;
     font-weight: bold;
-    color:deepskyblue;
+    color:dimgrey;
 }
 
 h2{
-    font-style: italic;
+    font-family: serif;
+    font-style: normal;
     font-size:28px;
     font-weight: bold;
-    color:deepskyblue;
+    color:dimgrey;
 }
 
 h4{
+    font-family: serif;
     font-weight:normal;
-    color:deepskyblue;
+    color:dimgrey;
 }
 
-.header_logo{
-    float:left;
-    width:40%;
-    margin:auto;
-}
-
-.header_title{
-    float:right;
-    width:40%;
-    margin:auto;
-}
-
-.main_picture{
-    width:100%;
-}
-
-.secondary_picture{
-    display: flex;
-    flex-wrap:wrap;
+p,a{
+    font-family: serif;
+    font-weight:normal;
+    font-size:28px;
 }
 
 ul{
@@ -63,18 +51,72 @@ ul{
     min-height:48px;
 }
 
-.spot_picture{
-    display:inline-block;
-    width:30%;
-    text-align: center;
-    padding-right:3%;
+/*
+ *
+ * Left Part（change it to bottom part in phone pattern）
+ *
+ */
+
+.left_part{
+    box-sizing: border-box;
+    order:2;
+    width:100%;
 }
 
-.spot_picture span,p{
-    display:block;
+.myself{
+    width:100%;
+    text-align: center;
+}
+
+/*
+ *
+ * Right Part
+ *
+ */
+
+.right_part{
+    order:1;
+    width:100%;
+}
+
+/*
+ *
+ * Header in Right Part
+ *
+ */
+
+header_logo{
+    width:30%;
+    float:left;
+}
+
+.header_title{
+    width:60%;
+    float:right;
+}
+
+/*
+ *
+ * Main in Right Part
+ *
+ */
+
+.main_picture{
+    width:100%;
+}
+
+.spot_picture_1,.spot_picture_1,.spot_picture_1{
+    display:inline-block;
+    width:100%;
+    margin-bottom:5%;
 }
 
 .spot_img{
     width:100%;
+}
+
+.spot_picture span,p {
+    display: inline;
+    text-align: left;
 }
 
