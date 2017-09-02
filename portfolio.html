@@ -4,52 +4,68 @@
     <meta charset="UTF-8">
     <title>Portfolio Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" media="screen and (max-width:400px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (min-width:401px) and (max-width:800px)" href="pad.css">
+    <link rel="stylesheet" media="screen and (min-width:801px)" href="desktop.css">
 </head>
 <body>
+
     <div class="content">
-    <header class="header">
-        <img class="header_logo" src="image/logo.jpg" alt="my life">
-        <section class="header_title">
-        <h1>Jessie Wu</h1>
-        <h4>Traveling, Watching, Recording, Thinking.</h4>
-        </section>
-    </header>
 
-    <main>
-        <section class="main_picture">
-            <img class="main_picture" src="image/mainPicture.jpeg" alt="sunset">
-        </section>
+        <div class="left_part">
+            <img class="myself" src="image/myself.jpg" alt="my photo">
+            <p> My name is Zongxin Wu, a graduate student major in Applied Mathematics at University of
+                Southern California. I am interested in computer science so I have finished some CS classes
+                in usc, such as Algorithm, Foundation of Artificial Intelligence. I plan to get a jod related
+                to CS after graduating from USC.
+                Welcome to visit my Linkedin <a href="https://www.linkedin.com/in/jessie-wu-51a315b1">here</a>.
+            </p>
+        </div>
 
-        <section class="secondary_picture">
-            <h2 class="secondary_title">Scenic Spot</h2>
-            <ul class="spot_pictures">
-                <li class="spot_picture">
-                    <img class="spot_img" src="image/pic1.jpeg" alt="17 Miles">
-                    <span>17 Miles, California</span>
-                    <p>I went 17 Mile in 2016 Spring break. It located around the Highway No.1.
-                        It costs about two days to drive from San Francisco to Los Angeles. But
-                        it really worth to see it.
-                    </p>
-                </li>
-                <li class="spot_picture">
-                    <img class="spot_img" src="image/pic2.jpeg" alt="Crater Lake">
-                    <span>Crater Lake,Oregon </span>
-                    <p>I went there in 2017 summer. It's the deepest and bluest lake in USA. In
-                        order to get there, I have to drive from San Jose to Oregon first. The long trip is
-                        terrible but the beautiful scenery is wonderful.
-                    </p>
-                </li>
-                <li class="spot_picture">
-                    <img class="spot_img" src="image/pic3.jpeg" alt="Hana">
-                    <span>Hana, Hawaii</span>
-                    <p>Hawaii is a dream place for my husband and me. So we decide to go there for
-                       honeymoon. We went to Honolulu and Maui. The Hana is a amazing place to enjoy.
-                    </p>
-                </li>
-            </ul>
-        </section>
-    </main>
+        <div class="right_part">
+            <header class="header">
+                <img class="header_logo" src="image/logo.png" alt="Wu">
+                <section class="header_title">
+                    <h1>Jessie Wu</h1>
+                    <h4>Traveling, Watching, Recording, Thinking.</h4>
+                </section>
+            </header>
+
+            <main>
+                <section class="main_picture">
+                    <img class="main_picture" src="image/mainPicture.jpeg" alt="sunset">
+                </section>
+
+                <section class="secondary_picture">
+                    <h2 class="secondary_title">Scenic Spots</h2>
+                    <ul class="all_pictures">
+                        <li class="spot_picture_1">
+                            <img class="spot_img" src="image/pic1.jpeg" alt="17 Miles">
+                            <span>17 Miles, California</span>
+                            <p>I went 17 Mile in 2016 Spring break. It located around the Highway No.1.
+                                It costs about two days to drive from San Francisco to Los Angeles. But
+                                it really worth to see it.
+                            </p>
+                        </li>
+                        <li class="spot_picture_2">
+                            <img class="spot_img" src="image/pic2.jpeg" alt="Crater Lake">
+                            <span>Crater Lake,Oregon </span>
+                            <p>I went there in 2017 summer. It's the deepest and bluest lake in USA. In
+                                order to get there, I have to drive from San Jose to Oregon first. The long trip is
+                                terrible but the beautiful scenery is wonderful.
+                            </p>
+                        </li>
+                        <li class="spot_picture_3">
+                            <img class="spot_img" src="image/pic3.jpeg" alt="Hana">
+                            <span>Hana, Hawaii</span>
+                            <p>Hawaii is a dream place for my husband and me. So we decide to go there for
+                               honeymoon. We went to Honolulu and Maui. The Hana is a amazing place to enjoy.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
     </div>
 </body>
 </html>

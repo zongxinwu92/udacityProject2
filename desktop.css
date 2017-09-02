@@ -1,49 +1,43 @@
 .content{
     width:90%;
     margin:auto;
-    display:block;
+    display:block
 }
 
-header,section{
+
+header,.main_picture,.secondary_picture{
     box-sizing: border-box;
-    max-width:100%;
+    width:100%;
+    margin-top:3%;
     min-width:48px;
     min-height:48px;
 }
 
-main{
-    margin:auto;
-}
-
 h1{
-    font-style: italic;
+    font-family: serif;
+    font-style: normal;
     font-size:36px;
     font-weight: bold;
-    color:deepskyblue;
+    color:dimgrey;
+}
+
+h2{
+    font-family: serif;
+    font-style: normal;
+    font-size:28px;
+    font-weight: bold;
+    color:dimgrey;
 }
 
 h4{
+    font-family: serif;
     font-weight:normal;
-    color:deepskyblue;
+    color:dimgrey;
 }
 
-.header_logo{
-    float:left;
-    width:40%;
-}
-
-.header_title{
-    float:right;
-    width:40%;
-}
-
-.main_picture{
-    width:100%;
-}
-
-.secondary_picture{
-    display: flex;
-    flex-wrap:wrap;
+p{
+    font-family: serif;
+    font-weight:normal;
 }
 
 ul{
@@ -55,18 +49,90 @@ ul{
     min-height:48px;
 }
 
-.spot_picture{
-    display:inline-block;
-    width:30%;
-    text-align: center;
+/*
+ *
+ * Left Part
+ *
+ */
+
+.left_part{
+    box-sizing: border-box;
+    float:left;
+    width:20%;
     padding-right:3%;
+    padding-top: 18%;
 }
 
-.spot_picture span,p{
-    display:block;
+.myself{
+    width:100%;
+    align-content: center;
+}
+
+/*
+ *
+ * Right Part
+ *
+ */
+
+.right_part{
+    float:right;
+    width:80%;
+}
+
+/*
+ *
+ * Header in Right Part
+ *
+ */
+
+header_logo{
+    float:left;
+    width:30%;
+}
+
+.header_title{
+    float:right;
+    width:45%;
+}
+
+/*
+ *
+ * Main in Right Part
+ *
+ */
+
+.main_picture{
+    width:100%;
+}
+
+.secondary_picture{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.spot_picture_1{
+    display:inline-block;
+    width:30%;
+    padding-right:4%;
+}
+
+.spot_picture_2{
+    display:inline-block;
+    width:30%;
+    padding-right:4%;
+}
+
+.spot_picture_3{
+    display:inline-block;
+    width:30%;
 }
 
 .spot_img{
     width:100%;
+}
+
+.spot_picture span,p{
+    display:block;
+    text-align: left;
 }
 
