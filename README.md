@@ -8,13 +8,10 @@ The codes are based on html5 and contains one html and three stylesheets.
 
 
 
-# Install
+# Run 
 Clone the repo:
 
 ```git clone git@github.com:zongxinwu92/udacityProject2.git```
 
-To open the website, only need to run entertainment_center python program:
-
-```python3 entertainment_center.py```
-
+Open html in any website to see the result.
 
