@@ -106,19 +106,19 @@ header_logo {
 }
 
 .spot_picture_1 {
-    display:inline-block;
+    display:inline-table;
     width:30%;
     padding-right:4%;
 }
 
 .spot_picture_2 {
-    display:inline-block;
+    display:inline-table;
     width:30%;
     padding-right:4%;
 }
 
 .spot_picture_3 {
-    display:inline-block;
+    display:inline-table;
     width:30%;
 }
 
