@@ -49,6 +49,10 @@ ul {
     min-height:48px;
 }
 
+li{
+    vertical-align: top;
+}
+
 /*
  *
  * Left Part
@@ -106,19 +110,19 @@ header_logo {
 }
 
 .spot_picture_1 {
-    display:inline-table;
+    display:inline-block;
     width:30%;
     padding-right:4%;
 }
 
 .spot_picture_2 {
-    display:inline-table;
+    display:inline-block;
     width:30%;
     padding-right:4%;
 }
 
 .spot_picture_3 {
-    display:inline-table;
+    display:inline-block;
     width:30%;
 }
 
